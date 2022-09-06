@@ -1,0 +1,1 @@
+lsblk -o name,model,size,serial -d | grep -v loop
